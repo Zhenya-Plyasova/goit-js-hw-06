@@ -5,5 +5,5 @@ input.addEventListener('input', onInputChange);
 
 
 function onInputChange(event){
-nameEl.textContent=event.currentTarget.value;
+event.currentTarget.value!=="" ? nameEl.textContent=event.currentTarget.value : nameEl.textContent="Anonymous";
 }

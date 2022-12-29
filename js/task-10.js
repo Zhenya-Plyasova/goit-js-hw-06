@@ -39,6 +39,6 @@ for (let index = 0; index < amount; index++) {
   
 }
 boxesString = boxes.join("");
-container.insertAdjacentHTML("beforebegin", boxesString);
+container.insertAdjacentHTML("afterbegin", boxesString);
 
 }
